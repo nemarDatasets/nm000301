@@ -1,0 +1,96 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Boyla Mainsah": {},
+    "Chance Fleeting": {
+      "orcid": "0000-0002-6271-4952",
+      "affiliations": [
+        {
+          "name": "Duke University"
+        }
+      ]
+    },
+    "Thomas Balmat": {},
+    "Eric Sellers": {},
+    "Leslie Collins": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.13026/0byy-ry86",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000301",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000301",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Mainsah et al. 2025 — bigP3BCI: An Open, Diverse and Machine Learning Ready P300-based Brain-Computer Interface Dataset (Study D)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "766.7 MB (308 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "BigP3BCI Study D is a P300-based brain-computer interface dataset comprising EEG recordings from 17 healthy subjects performing a 6x6 character grid speller task using dynamic row-column stimulus presentation. The dataset contains 32-channel EEG data sampled at 256 Hz with standardized 10-20 electrode montage, annotated with target and non-target event labels using HED 8.4.0 schema. This derivative dataset is part of the larger BigP3BCI collection, the largest public P300 BCI dataset, and is designed for machine learning model development and benchmarking in brain-computer interface research.",
+  "methods_description": "EEG data were acquired using g.USBamp hardware (g.tec) with 32 channels arranged in standard 10-20 montage at 256 Hz sampling rate. Subjects performed a P300 speller task using 6x6 dynamic row-column stimulus presentation in a laboratory setting with online feedback. Single session per subject with target and non-target visual stimuli presented to elicit P300 event-related potentials.",
+  "keywords": [
+    {
+      "term": "P300 event-related potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D058765"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "speller paradigm"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "machine learning"
+    }
+  ],
+  "source_hash": "8b7db052bb2e6411529b4bb6c09e96d888151a400a297e4cee4d8ec0605bfa23"
+}
